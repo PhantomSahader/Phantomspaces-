@@ -1,0 +1,240 @@
+[{
+  "_id": {
+    "$oid": "69e137819b7c1c55f50374e1"
+  },
+  "id_pedido": 1,
+  "fecha": "2026-04-10",
+  "total": 12500,
+  "cliente": {
+    "nombre": "Camila Soto",
+    "telefono": "+56988776655",
+    "ciudad": "Temuco"
+  },
+  "productos": [
+    {
+      "nombre_producto": "Paila Marina",
+      "cantidad": 1,
+      "precio": 9500
+    },
+    {
+      "nombre_producto": "Bebida 1.5L",
+      "cantidad": 1,
+      "precio": 3000
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69e137819b7c1c55f50374e2"
+  },
+  "id_pedido": 2,
+  "fecha": "2026-04-11",
+  "total": 18000,
+  "cliente": {
+    "nombre": "Marcos Urrutia",
+    "telefono": "+56911223344",
+    "ciudad": "Padre Las Casas"
+  },
+  "productos": [
+    {
+      "nombre_producto": "Cazuela de Vacuno",
+      "cantidad": 2,
+      "precio": 9000
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69e137819b7c1c55f50374e3"
+  },
+  "id_pedido": 3,
+  "fecha": "2026-04-11",
+  "total": 8500,
+  "cliente": {
+    "nombre": "Elena Rivas",
+    "telefono": "+56955443322",
+    "ciudad": "Lautaro"
+  },
+  "productos": [
+    {
+      "nombre_producto": "Empanada de Pino",
+      "cantidad": 3,
+      "precio": 2500
+    },
+    {
+      "nombre_producto": "Té",
+      "cantidad": 1,
+      "precio": 1000
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69e137819b7c1c55f50374e4"
+  },
+  "id_pedido": 4,
+  "fecha": "2026-04-12",
+  "total": 21000,
+  "cliente": {
+    "nombre": "Karla Soto",
+    "telefono": "+56988776655",
+    "ciudad": "Temuco"
+  },
+  "productos": [
+    {
+      "nombre_producto": "Salmón a la Plancha",
+      "cantidad": 1,
+      "precio": 15000
+    },
+    {
+      "nombre_producto": "Copa de Vino",
+      "cantidad": 2,
+      "precio": 3000
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69e137819b7c1c55f50374e5"
+  },
+  "id_pedido": 5,
+  "fecha": "2026-04-12",
+  "total": 14000,
+  "cliente": {
+    "nombre": "Jorge Vera",
+    "telefono": "+56977665544",
+    "ciudad": "Villarrica"
+  },
+  "productos": [
+    {
+      "nombre_producto": "Chorrillana Mediana",
+      "cantidad": 1,
+      "precio": 12000
+    },
+    {
+      "nombre_producto": "Schop 500cc",
+      "cantidad": 1,
+      "precio": 2000
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69e137819b7c1c55f50374e6"
+  },
+  "id_pedido": 6,
+  "fecha": "2026-04-13",
+  "total": 7000,
+  "cliente": {
+    "nombre": "Lucía Méndez",
+    "telefono": "+56999887766",
+    "ciudad": "Pucón"
+  },
+  "productos": [
+    {
+      "nombre_producto": "Sándwich Luco",
+      "cantidad": 1,
+      "precio": 5500
+    },
+    {
+      "nombre_producto": "Jugo Natural",
+      "cantidad": 1,
+      "precio": 1500
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69e137819b7c1c55f50374e7"
+  },
+  "id_pedido": 7,
+  "fecha": "2026-04-14",
+  "total": 25000,
+  "cliente": {
+    "nombre": "Marcos Urrutia",
+    "telefono": "+56911223344",
+    "ciudad": "Padre Las Casas"
+  },
+  "productos": [
+    {
+      "nombre_producto": "Parrillada Simple",
+      "cantidad": 1,
+      "precio": 25000
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69e137819b7c1c55f50374e8"
+  },
+  "id_pedido": 8,
+  "fecha": "2026-04-15",
+  "total": 11500,
+  "cliente": {
+    "nombre": "Pedro Pascal",
+    "telefono": "+56922334455",
+    "ciudad": "Temuco"
+  },
+  "productos": [
+    {
+      "nombre_producto": "Merluza Frita",
+      "cantidad": 1,
+      "precio": 8500
+    },
+    {
+      "nombre_producto": "Ensalada Chilena",
+      "cantidad": 1,
+      "precio": 3000
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69e137819b7c1c55f50374e9"
+  },
+  "id_pedido": 9,
+  "fecha": "2026-04-15",
+  "total": 4000,
+  "cliente": {
+    "nombre": "Ana Jara",
+    "telefono": "+56966554433",
+    "ciudad": "Victoria"
+  },
+  "productos": [
+    {
+      "nombre_producto": "Trozo de Torta",
+      "cantidad": 1,
+      "precio": 3000
+    },
+    {
+      "nombre_producto": "Café",
+      "cantidad": 1,
+      "precio": 1000
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69e137819b7c1c55f50374ea"
+  },
+  "id_pedido": 10,
+  "fecha": "2026-04-16",
+  "total": 13000,
+  "cliente": {
+    "nombre": "Luna Sandoval",
+    "telefono": "+56988776655",
+    "ciudad": "Temuco"
+  },
+  "productos": [
+    {
+      "nombre_producto": "Mote con Huesillo XL",
+      "cantidad": 2,
+      "precio": 4000
+    },
+    {
+      "nombre_producto": "Empanadas Fritas",
+      "cantidad": 2,
+      "precio": 2500
+    }
+  ]
+}]
