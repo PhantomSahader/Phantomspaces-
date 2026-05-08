@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi Mamá</title>
+    <style>
+        body {
+            background-color: #fce4ec; /* Fondo rosado pastel */
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Georgia', serif;
+            overflow: hidden;
+        }
+
+        /* Contenedor de las flores */
+        .flower-container {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+
+        .white-flower {
+            position: absolute;
+            font-size: 35px;
+            color: white;
+            opacity: 0;
+            animation: bloom 5s ease-in infinite;
+        }
+
+        @keyframes bloom {
+            0% { transform: scale(0) rotate(0deg); opacity: 0; top: 50%; left: 50%; }
+            20% { opacity: 1; }
+            100% { transform: scale(1.5) rotate(360deg); opacity: 0; top: var(--top); left: var(--left); }
+        }
+
+        .message-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(5px);
+            padding: 40px;
+            border-radius: 30px;
+            text-align: center;
+            border: 2px solid white;
+            box-shadow: 0 15px 35px rgba(252, 107, 154, 0.2);
+            z-index: 10;
+            max-width: 80%;
+        }
+
+        h1 { color: #ad1457; font-size: 1.8rem; margin-bottom: 15px; }
+        p { color: #880e4f; font-size: 1.2rem; line-height: 1.5; font-style: italic; }
+        
+        .divider {
+            height: 2px;
+            background: linear-gradient(to right, transparent, #f06292, transparent);
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="flower-container" id="flowers"></div>
+
+    <div class="message-card">
+        <h1>Para la luz de mi vida</h1>
+        <div class="divider"></div>
+        <p>"Mamá, gracias por ser esa flor blanca que ilumina mis días más oscuros. Tu amor es el código que hace que mi mundo funcione perfectamente."</p>
+        <p><strong>Te amo con todo mi corazón.</strong></p>
+    </div>
+
+    <script>
+        function createFlower() {
+            const container = document.getElementById('flowers');
+            const flower = document.createElement('div');
+            flower.className = 'white-flower';
+            flower.innerText = '🌸'; // Usamos este emoji que se ve blanco/rosado muy suave
+            
+            // Posiciones aleatorias para que broten desde el centro hacia afuera
+            flower.style.setProperty('--top', Math.random() * 100 + 'vh');
+            flower.style.setProperty('--left', Math.random() * 100 + 'vw');
+            
+            container.appendChild(flower);
+
+            setTimeout(() => {
+                flower.remove();
+            }, 5000);
+        }
+
+        // Generar flores constantemente
+        setInterval(createFlower, 400);
+    </script>
+</body>
+</html>
